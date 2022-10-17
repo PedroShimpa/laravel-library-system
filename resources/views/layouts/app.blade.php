@@ -18,17 +18,17 @@
     <!-- Standard iPhone Touch Icon-->
     <link rel="apple-touch-icon" sizes="57x57" href="http://placehold.it/57.png/000/fff">
     <!-- Styles -->
-    <link href="{{ asset('./css/lib/calendar2/pignose.calendar.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('./css/lib/chartist/chartist.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('./css/lib/font-awesome.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('./css/lib/themify-icons.css') }}" rel="stylesheet">
-    <link href="{{ asset('./css/lib/owl.carousel.min.css') }}" rel="stylesheet" />
-    <link href="{{ asset('./css/lib/owl.theme.default.min.css') }}" rel="stylesheet" />
-    <link href="{{ asset('./css/lib/weather-icons.css') }}" rel="stylesheet" />
-    <link href="{{ asset('./css/lib/menubar/sidebar.css') }}" rel="stylesheet">
-    <link href="{{ asset('./css/lib/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('./css/lib/helper.css') }}" rel="stylesheet">
-    <link href="{{ asset('./css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset(''./css/lib/calendar2/pignose.calendar.min.css') }}" rel="stylesheet">
+    <link href="{{ asset(''./css/lib/chartist/chartist.min.css') }}" rel="stylesheet">
+    <link href="{{ asset(''./css/lib/font-awesome.min.css') }}" rel="stylesheet">
+    <link href="{{ asset(''./css/lib/themify-icons.css') }}" rel="stylesheet">
+    <link href="{{ asset(''./css/lib/owl.carousel.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset(''./css/lib/owl.theme.default.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset(''./css/lib/weather-icons.css') }}" rel="stylesheet" />
+    <link href="{{ asset(''./css/lib/menubar/sidebar.css') }}" rel="stylesheet">
+    <link href="{{ asset(''./css/lib/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset(''./css/lib/helper.css') }}" rel="stylesheet">
+    <link href="{{ asset(''./css/style.css') }}" rel="stylesheet">
 </head>
 
 <body>
@@ -47,30 +47,30 @@
     </div>
 
 
-    <script src="js/lib/jquery.min.js"></script>
-    <script src="js/lib/jquery.nanoscroller.min.js"></script>
-    <script src="js/lib/menubar/sidebar.js"></script>
-    <script src="js/lib/preloader/pace.min.js"></script>
+    <script src="{{ asset('./js/lib/jquery.min.js')}}"></script>
+    <script src="{{ asset('./js/lib/jquery.nanoscroller.min.js')}}"></script>
+    <script src="{{ asset('./js/lib/menubar/sidebar.js')}}"></script>
+    <script src="{{ asset('./js/lib/preloader/pace.min.js')}}"></script>
 
-    <script src="js/lib/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="{{ asset('./js/lib/bootstrap.min.js')}}"></script>
+    <script src="{{ asset('./js/scripts.js')}}"></script>
 
-    <script src="js/lib/calendar-2/moment.latest.min.js"></script>
-    <script src="js/lib/calendar-2/pignose.calendar.min.js"></script>
-    <script src="js/lib/calendar-2/pignose.init.js"></script>
+    <script src="{{ asset('./js/lib/calendar-2/moment.latest.min.js')}}"></script>
+    <script src="{{ asset('./js/lib/calendar-2/pignose.calendar.min.js')}}"></script>
+    <script src="{{ asset('./js/lib/calendar-2/pignose.init.js')}}"></script>
 
 
-    <script src="js/lib/weather/jquery.simpleWeather.min.js"></script>
-    <script src="js/lib/weather/weather-init.js"></script>
-    <script src="js/lib/circle-progress/circle-progress.min.js"></script>
-    <script src="js/lib/circle-progress/circle-progress-init.js"></script>
-    <script src="js/lib/chartist/chartist.min.js"></script>
-    <script src="js/lib/sparklinechart/jquery.sparkline.min.js"></script>
-    <script src="js/lib/sparklinechart/sparkline.init.js"></script>
-    <script src="js/lib/owl-carousel/owl.carousel.min.js"></script>
-    <script src="js/lib/owl-carousel/owl.carousel-init.js"></script>
+    <script src="{{ asset('./js/lib/weather/jquery.simpleWeather.min.js')}}"></script>
+    <script src="{{ asset('./js/lib/weather/weather-init.js')}}"></script>
+    <script src="{{ asset('./js/lib/circle-progress/circle-progress.min.js')}}"></script>
+    <script src="{{ asset('./js/lib/circle-progress/circle-progress-init.js')}}"></script>
+    <script src="{{ asset('./js/lib/chartist/chartist.min.js')}}"></script>
+    <script src="{{ asset('./js/lib/sparklinechart/jquery.sparkline.min.js')}}"></script>
+    <script src="{{ asset('./js/lib/sparklinechart/sparkline.init.js')}}"></script>
+    <script src="{{ asset('./js/lib/owl-carousel/owl.carousel.min.js')}}"></script>
+    <script src="{{ asset('./js/lib/owl-carousel/owl.carousel-init.js')}}"></script>
     <!-- scripit init-->
-    <script src="js/dashboard2.js"></script>
+    <script src="{{ asset('./js/dashboard2.js')}}"></script>
 </body>
 
 </html>
