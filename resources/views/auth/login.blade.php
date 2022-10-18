@@ -10,7 +10,7 @@
                         <a><span>{{ __('Biblioteca Online') }}</span></a>
                     </div>
                     <div class="login-form">
-                        <h4>{{ __('Logar-se') }}</h4>
+                        <h4>{{ __('Login') }}</h4>
                         <form>
 
                             <div class="form-group">
