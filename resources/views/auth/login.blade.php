@@ -4,14 +4,14 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-lg-6">
-                <div class="login-content" method="POST" action="{{ route('login') }}">
-                    @csrf
+                <div class="login-content" >
                     <div class="login-logo">
                         <a><span>{{ __('Biblioteca Online') }}</span></a>
                     </div>
                     <div class="login-form">
                         <h4>{{ __('Login') }}</h4>
-                        <form>
+                        <form method="POST" action="{{ route('login') }}">
+                        @csrf
 
                             <div class="form-group">
                                 <label for="email">{{ __('E-mail') }}</label>
