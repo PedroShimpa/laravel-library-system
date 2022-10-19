@@ -7,9 +7,10 @@
 					</a></div>
 				<li class="label">{{ __('Principal')}}</li>
 				@can('users')
-				<li><a href="{{ route('users.index')}}" ><i class="ti-user" ></i>{{__('Usúarios')}}</a></li>
+				<li><a href="{{ route('users.index')}}"><i class="ti-user"></i>{{__('Usúarios')}}</a></li>
 				@endcan
-				<li><a><i class="ti-close"></i> {{ __('Sair')}}</a></li>
+				<li><a href="{{ route('logout') }}" onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();"> <i class="ti-close"></i> {{ __('Sair')}}</a></li>
 			</ul>
 		</div>
 	</div>

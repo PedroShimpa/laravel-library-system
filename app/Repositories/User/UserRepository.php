@@ -3,6 +3,7 @@
 namespace App\Repositories\User;
 
 use App\Models\User\User;
+use Illuminate\Support\Facades\Hash;
 
 class UserRepository
 {
@@ -28,5 +29,17 @@ class UserRepository
 	{
 		$user = $this->getById($id);
 		return $user->syncPermissions($permissions);
+	}
+
+	public function store(array $data)
+	{
+		$code = now()->timestamp;
+		$data['password'] = Hash::make($code);
+		return $this->user->store($data);
+	}
+
+	public function edit(array $data, int $id)
+	{
+		return $this->user->edit($data, $id);
 	}
 }

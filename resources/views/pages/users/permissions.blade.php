@@ -27,7 +27,6 @@
 									{{ __('Voltar') }}
 								</a>
 							</div>
-
 						</div>
 					</form>
 				</div>

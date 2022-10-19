@@ -36,7 +36,16 @@ class User extends Authenticatable
 
     public function getById($id)
     {
-        return $this->select('id', 'name')->where('id', $id)
-            ->first();
+        return $this->select('id', 'name', 'email')->where('id', $id)->first();
+    }
+
+    public function store(array $data)
+    {
+        return $this->create($data);
+    }
+
+    public function edit($data, $id)
+    {
+        return $this->where('id', $id)->update($data);
     }
 }
